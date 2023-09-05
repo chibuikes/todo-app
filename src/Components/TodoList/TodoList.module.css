@@ -1,0 +1,257 @@
+
+
+@media(max-width:490px){
+    
+.div{
+    display:flex;
+    align-items: center;
+
+}
+.div3{
+    display: flex;
+    justify-content: space-between;
+    background-color:hsl(235, 21%, 21%);
+    padding: 10px;
+    height:24px;
+    border-bottom:1px solid hsl(237, 14%, 32%);
+}
+.div3l{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(0, 0%, 98%);
+    padding: 10px;
+    height:24px;
+    border-bottom:1px solid hsl(237, 14%, 82%);
+}
+.circled{
+    width:20px;
+    height:20px;
+    border-radius: 100%;
+    background:linear-gradient(0deg , hsl(280, 87%, 65%), hsl(192, 100%, 67%));
+    position: relative;
+    margin: 0px 16px;
+}
+.circle{
+    width:20px;
+    height:20px;
+    border-radius: 100%;
+    position: relative;
+    margin: 0px 16px;
+    border:1px solid hsl(237, 14%, 32%);
+    cursor: pointer;
+}
+.circlel{
+    width:20px;
+    height:20px;
+    border-radius: 100%;
+    position: relative;
+    margin: 0px 16px;
+    border:1px solid hsl(237, 14%, 82%);
+
+    cursor: pointer;
+}
+div.circle:hover{
+    width:20px;
+    height:20px;
+    border-radius: 100%;
+    position: relative;
+    margin: 0px 16px;
+    border-width:1px;
+     border-style:solid;
+    border-color:   hsl(192, 100%, 37%) hsl(192, 100%, 37%)hsl(280, 87%, 35%) hsl(192, 100%, 37%) ;
+
+    cursor: pointer;
+}
+
+.p1n{
+    color:hsl(237, 14%, 42%);
+    font-size: 12px;
+    text-decoration: line-through;
+}
+.p1nl{
+    color:hsl(237, 14%, 82%);
+    font-size: 12px;
+    text-decoration: line-through;
+}
+.p1{
+    color:hsl(234, 39%, 85%);
+    font-size: 12px;
+    cursor:pointer;
+}
+.p1l{
+    color: hsl(235, 19%, 35%);
+    font-weight: 600;
+    font-size: 12px;
+    cursor:pointer;
+}
+.hide{
+    display:none;
+}
+
+.show{
+    display:block;
+}
+.phone{
+ display: block;
+}
+.laptop{
+    display:none;
+
+}
+.check{
+    position: absolute;
+    top:30%;
+    left:20%;
+    width:10px;
+}
+.checkn{
+    display:none;
+    color:hsl(235, 19%, 35%);
+}
+
+}
+@media(min-width:491px){
+    
+.div{
+    display:flex;
+    align-items: center;
+
+}
+.div3{
+    display: flex;
+    justify-content: space-between;
+    background-color:hsl(235, 21%, 21%);
+    padding: 10px;
+    height:24px;
+    border-bottom:1px solid hsl(237, 14%, 32%);
+}
+.div3l{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(0, 0%, 98%);
+    padding: 10px;
+    height:24px;
+    border-bottom:1px solid hsl(237, 14%, 82%);
+}
+.circled{
+    width:20px;
+    height:20px;
+    border-radius: 100%;
+    background:linear-gradient(0deg , hsl(280, 87%, 65%), hsl(192, 100%, 67%));
+    position: relative;
+    margin: 0px 16px;
+}
+.circle{
+    width:20px;
+    height:20px;
+    border-radius: 100%;
+    position: relative;
+    margin: 0px 16px;
+    border:1px solid hsl(237, 14%, 32%);
+    cursor: pointer;
+}
+.circlel{
+    width:20px;
+    height:20px;
+    border-radius: 100%;
+    position: relative;
+    margin: 0px 16px;
+    border:1px solid hsl(237, 14%, 82%);
+
+    cursor: pointer;
+}
+div.circle:hover{
+    width:20px;
+    height:20px;
+    border-radius: 100%;
+    position: relative;
+    margin: 0px 16px;
+    border-width:1px;
+     border-style:solid;
+    border-color:   hsl(192, 100%, 37%) hsl(192, 100%, 37%)hsl(280, 87%, 35%) hsl(192, 100%, 37%) ;
+
+    cursor: pointer;
+}
+
+.p1n{
+    color:hsl(237, 14%, 42%);
+    font-size: 12px;
+    text-decoration: line-through;
+}
+.p1nl{
+    color:hsl(237, 14%, 82%);
+    font-size: 12px;
+    text-decoration: line-through;
+}
+.p1{
+    color:hsl(234, 39%, 85%);
+    font-size: 12px;
+    cursor:pointer;
+}
+.p1l{
+    color: hsl(235, 19%, 35%);
+    font-weight: 600;
+    font-size: 12px;
+    cursor:pointer;
+}
+.hide{
+    display:none;
+}
+.show{
+    display:block;
+}
+.phone{
+    display:none;
+
+   }
+   .laptop{
+    display: block;
+   }
+.check{
+    position: absolute;
+    top:30%;
+    left:20%;
+    width:10px;
+}
+.checkn{
+    display:none;
+    color:hsl(235, 19%, 35%);
+}
+
+}
+/*
+hsl(237, 14%, 32%)
+
+linear-gradient(30deg , hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+### Primary
+
+- Bright Blue: hsl(220, 98%, 61%)
+- Check Background: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%)
+
+### Neutral
+
+### Light Theme
+
+- Very Light Gray: hsl(0, 0%, 98%)
+- Very Light Grayish Blue: hsl(236, 33%, 92%)
+- Light Grayish Blue: hsl(233, 11%, 84%)
+- Dark Grayish Blue: hsl(236, 9%, 61%)
+- Very Dark Grayish Blue: hsl(235, 19%, 35%)
+
+### Dark Theme
+
+- Very Dark Blue: hsl(235, 21%, 11%)
+- Very Dark Desaturated Blue: hsl(235, 24%, 19%)
+- Light Grayish Blue: hsl(234, 39%, 85%)
+- Light Grayish Blue (hover): hsl(236, 33%, 92%)
+- Dark Grayish Blue: hsl(234, 11%, 52%)
+- Very Dark Grayish Blue: hsl(233, 14%, 35%)
+- Very Dark Grayish Blue: hsl(237, 14%, 26%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 18px
+
+### Font*/
